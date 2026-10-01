@@ -7,7 +7,6 @@
       </a>
     </div>
     <div class="topbar-right">
-      <span class="topbar-badge">Paris</span>
       <span class="topbar-date">{{ now | time.Format ":date_full" }}</span>
     </div>
   </div>
@@ -51,17 +50,15 @@
   </div>
 </header>
 
-{{ if .IsHome }}
-{{ $latest := first 6 (where site.RegularPages "Section" "blog").ByDate.Reverse }}
-<div class="ticker" aria-hidden="true">
+{{ $latest := first 8 (where site.RegularPages "Section" "blog").ByDate.Reverse }}
+<div class="ticker">
   <div class="wrap ticker-inner">
-    <span class="ticker-badge">{{ i18n "tickerBadge" }}</span>
-    <div class="ticker-track">
+    <span class="ticker-badge"><span class="ticker-live" aria-hidden="true"></span>{{ i18n "tickerBadge" }}</span>
+    <div class="ticker-track" aria-hidden="true">
       <div class="ticker-list">
-        {{ range $latest }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
-        {{ range $latest }}<a href="{{ .RelPermalink }}" tabindex="-1">{{ .Title }}</a>{{ end }}
+        {{ range $latest }}<a href="{{ .RelPermalink }}"><span class="ticker-date">{{ .Date | time.Format "2/01" }}</span>{{ with .Params.categories }}<span class="ticker-cat">{{ index . 0 }}</span>{{ end }}{{ .Title }}</a>{{ end }}
+        {{ range $latest }}<a href="{{ .RelPermalink }}" tabindex="-1"><span class="ticker-date">{{ .Date | time.Format "2/01" }}</span>{{ with .Params.categories }}<span class="ticker-cat">{{ index . 0 }}</span>{{ end }}{{ .Title }}</a>{{ end }}
       </div>
     </div>
   </div>
 </div>
-{{ end }}

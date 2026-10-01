@@ -91,7 +91,7 @@ p { margin: 0 0 1em; }
   padding: 8px 12px; border-radius: 8px; transition: color .15s, background .15s;
 }
 .main-nav a:hover { color: var(--primary); }
-.main-nav a.is-active { color: var(--primary); background: #F3ECFF; }
+.main-nav a.is-active { color: var(--primary); background: #E3F4EC; }
 .nav-toggle { display: none; background: none; border: 0; cursor: pointer; padding: 8px; color: var(--ink); }
 .nav-toggle svg { display: block; }
 .header-right { display: flex; align-items: center; gap: 12px; }
@@ -638,3 +638,17 @@ body.search-open { overflow: hidden; }
 .pill-per { background: var(--p-seo-bg); color: var(--p-seo-tx); }
 .pill-gestion-pilotee { background: var(--p-outils-bg); color: var(--p-outils-tx); }
 .pill-private-equity { background: var(--p-contenu-bg); color: var(--p-contenu-tx); }
+
+/* ---------- Nav et fil d'actus Journal Finance ---------- */
+.main-nav a { position: relative; }
+.main-nav a::after { content: ""; position: absolute; left: 12px; right: 12px; bottom: 4px; height: 2px; background: var(--primary); transform: scaleX(0); transform-origin: left; transition: transform .2s; }
+.main-nav a:hover::after, .main-nav a.is-active::after { transform: scaleX(1); }
+.ticker { background: var(--cream); border-bottom: 1px solid #D6E8DF; }
+.ticker-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--primary); border-radius: 999px; padding: 5px 13px 5px 11px; letter-spacing: .04em; }
+.ticker-live { width: 7px; height: 7px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 0 rgba(255,255,255,.7); animation: tickerLive 1.6s infinite; }
+@keyframes tickerLive { 0% { box-shadow: 0 0 0 0 rgba(255,255,255,.7); } 70% { box-shadow: 0 0 0 7px rgba(255,255,255,0); } 100% { box-shadow: 0 0 0 0 rgba(255,255,255,0); } }
+.ticker-list a { display: inline-flex; align-items: center; gap: 9px; color: var(--ink); }
+.ticker-list a:hover { color: var(--primary); }
+.ticker-date { font-size: 12px; font-weight: 700; color: var(--primary-2); font-variant-numeric: tabular-nums; }
+.ticker-cat { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); padding-right: 9px; border-right: 1px solid #C9DDD3; }
+@media (prefers-reduced-motion: reduce) { .ticker-live { animation: none; } }
