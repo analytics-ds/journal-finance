@@ -5,6 +5,7 @@ lastmod: "2026-09-25T09:00:00+02:00"
 description: "Quelle assurance-vie ouvrir pour un enfant en 2026 ? Yomoni Kid dès 300 €, abattement de 100 000 € par parent, règles à 18 ans. Notre guide pour bien choisir."
 categories: ["Assurance-vie"]
 tags: ["assurance-vie", "enfant", "donation", "transmission"]
+format: "guide"
 author: "claire-moreau"
 auteurs: ["claire-moreau"]
 image: "images/blog/assurance-vie-enfant.webp"

@@ -1,8 +1,10 @@
 {{ define "main" }}
 {{ $posts := (where site.RegularPages "Section" "blog").ByDate.Reverse }}
 {{ $featured := index $posts 0 }}
-{{ $trends := first 3 (after 1 $posts) }}
-{{ $picks := first 4 (after 4 $posts) }}
+{{ $guides := where $posts "Params.format" "guide" }}
+{{ $comps := where $posts "Params.format" "!=" "guide" }}
+{{ $trends := first 3 (after 1 $comps) }}
+{{ $picks := first 4 $guides }}
 
 <!-- Hero sombre : article vedette + tendances -->
 <section class="hero">

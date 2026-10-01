@@ -7,19 +7,19 @@
 :root {
   /* Couleurs */
   --bg:        #FFFFFF;
-  --ink:       #0A0A0C;
+  --ink:       #0B1620;
   --body-tx:   #2E2E33;
   --muted:     #6B7280;
   --line:      #E8E8EE;
-  --soft:      #F7F7F9;   /* fonds gris clair (footer, hover) */
-  --cream:     #FDF3E3;   /* bande éditoriale chaude */
-  --dark:      #0B0B0F;   /* hero et cards sombres */
-  --dark-2:    #17171E;
-  --primary:   #7B1FFF;   /* violet boutons */
-  --primary-2: #5E12CC;
-  --red:       #F0281E;   /* badges, liens "en voir plus" */
-  --bluebar-1: #1226AA;   /* topbar */
-  --bluebar-2: #0D1467;
+  --soft:      #F3F6F5;   /* fonds gris clair (footer, hover) */
+  --cream:     #EAF4EF;   /* bande éditoriale chaude */
+  --dark:      #0A1418;   /* hero et cards sombres */
+  --dark-2:    #13222A;
+  --primary:   #0E8F6A;   /* violet boutons */
+  --primary-2: #0A6E51;
+  --red:       #E8573A;   /* badges, liens "en voir plus" */
+  --bluebar-1: #0B2545;   /* topbar */
+  --bluebar-2: #071830;
 
   /* Pills par rubrique (bg pastel / texte) */
   --p-seo-bg: #E3F4EC;          --p-seo-tx: #157A4E;
@@ -31,13 +31,13 @@
   --p-outils-bg: #E0F5FA;       --p-outils-tx: #0E7490;
 
   /* Typo */
-  --heading: "Plus Jakarta Sans", "Archivo", system-ui, sans-serif;
+  --heading: "Manrope", "Archivo", system-ui, sans-serif;
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   /* Mesures */
   --wrap: 1200px;
-  --radius: 14px;
-  --radius-sm: 10px;
+  --radius: 10px;
+  --radius-sm: 6px;
   --shadow: 0 1px 2px rgba(10,10,12,.05), 0 6px 24px rgba(10,10,12,.06);
   --shadow-hover: 0 4px 12px rgba(10,10,12,.08), 0 16px 44px rgba(10,10,12,.12);
   --gap: clamp(18px, 2.6vw, 30px);

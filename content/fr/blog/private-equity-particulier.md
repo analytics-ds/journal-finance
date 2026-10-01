@@ -5,6 +5,7 @@ lastmod: "2026-09-22T09:00:00+02:00"
 description: "Comment investir en private equity en 2026 ? Visez 5 à 15 % de votre patrimoine sur 8 à 10 ans, via l'assurance-vie, le PER, un ELTIF ou une gestion privée."
 categories: ["Private equity"]
 tags: ["private equity", "non coté", "loi industrie verte", "eltif", "gestion privée"]
+format: "guide"
 author: "hugo-vasseur"
 auteurs: ["hugo-vasseur"]
 image: "images/blog/private-equity-particulier.webp"

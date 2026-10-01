@@ -5,6 +5,7 @@ lastmod: "2026-09-21T09:00:00+02:00"
 description: "Assurance-vie ou PER en 2026 ? Le PER rend jusqu'à 41 % du versement en impôt, l'assurance-vie reste disponible et exonère 4 600 € de gains par an après 8 ans."
 categories: ["Assurance-vie"]
 tags: ["assurance-vie", "per", "retraite", "fiscalité", "tmi"]
+format: "guide"
 author: "antoine-lefort"
 auteurs: ["antoine-lefort"]
 image: "images/blog/assurance-vie-ou-per.webp"

@@ -5,6 +5,7 @@ lastmod: "2026-09-23T09:00:00+02:00"
 description: "Combien un PER fait-il économiser d'impôt en 2026 ? Entre 11 % et 45 % du versement selon votre TMI, dans la limite de 10 % de vos revenus. Calculs et pièges."
 categories: ["PER"]
 tags: ["per", "impôt", "défiscalisation", "tmi", "retraite"]
+format: "guide"
 author: "antoine-lefort"
 auteurs: ["antoine-lefort"]
 image: "images/blog/economie-impot-per.webp"

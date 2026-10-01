@@ -5,6 +5,7 @@ lastmod: "2026-09-24T09:00:00+02:00"
 description: "Transférer son PEA conserve son antériorité fiscale. Frais plafonnés à 150 € par transfert, délais de 2 à 8 semaines, étapes et erreurs à éviter en 2026."
 categories: ["PEA"]
 tags: ["pea", "transfert pea", "fiscalité", "frais"]
+format: "guide"
 author: "sarah-benhamou"
 auteurs: ["sarah-benhamou"]
 image: "images/blog/transfert-pea.webp"
