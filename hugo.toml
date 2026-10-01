@@ -1,0 +1,85 @@
+baseURL = "https://analytics-ds.github.io/journal-finance/"
+defaultContentLanguage = "fr"
+defaultContentLanguageInSubdir = false
+title = "Journal Finance"
+enableRobotsTXT = true
+enableEmoji = true
+capitalizeListTitles = false
+removePathAccents = true
+summaryLength = 24
+
+[pagination]
+  pagerSize = 9
+
+[params]
+  brand = "journal finance"
+
+[languages]
+  [languages.fr]
+    locale = "fr-FR"
+    label = "Français"
+    weight = 1
+    title = "Journal Finance"
+    contentDir = "content/fr"
+    [languages.fr.params]
+      brandSuffix = "média épargne et placements"
+      tagline = "Le journal de l'épargne et de l'investissement"
+      description = "Comparatifs, classements et guides sur l'assurance-vie, le PEA, le PER, la gestion pilotée et le private equity. Le média de l'épargne qui compare avant de recommander."
+      baseline = "Assurance-vie, PEA, PER et private equity comparés pour mieux placer votre épargne."
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[taxonomies]
+  categorie = "categories"
+  tag = "tags"
+  auteur = "auteurs"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+  [markup.highlight]
+    noClasses = false
+
+[related]
+  includeNewer = true
+  threshold = 40
+  toLower = true
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+  [[related.indices]]
+    name = "tags"
+    weight = 60
+
+# ---- Menus FR ----
+[[languages.fr.menus.main]]
+  name = "Assurance-vie"
+  pageRef = "/categories/assurance-vie"
+  weight = 10
+[[languages.fr.menus.main]]
+  name = "PEA"
+  pageRef = "/categories/pea"
+  weight = 20
+[[languages.fr.menus.main]]
+  name = "PER"
+  pageRef = "/categories/per"
+  weight = 30
+[[languages.fr.menus.main]]
+  name = "Gestion pilotée"
+  pageRef = "/categories/gestion-pilotée"
+  weight = 40
+[[languages.fr.menus.main]]
+  name = "Private equity"
+  pageRef = "/categories/private-equity"
+  weight = 50
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]

@@ -1,0 +1,25 @@
+# Journal Finance
+
+> Le journal de l'épargne et de l'investissement. Comparatifs, classements et guides 2026 sur l'assurance-vie, le PEA, le PER, la gestion pilotée et le private equity.
+
+## Comparatifs
+- [Quelle est la meilleure assurance-vie en 2026 ?](https://analytics-ds.github.io/journal-finance/blog/meilleure-assurance-vie/): classement de 12 contrats d'assurance-vie en ligne, Yomoni premier avec 9,1/10.
+- [Quel est le meilleur PEA en 2026 ?](https://analytics-ds.github.io/journal-finance/blog/meilleur-pea/): comparatif de 8 offres de PEA, en gestion libre et en gestion pilotée.
+- [Quel est le meilleur PER individuel en 2026 ?](https://analytics-ds.github.io/journal-finance/blog/meilleur-per/): comparatif de 9 PER et économie d'impôt selon la TMI.
+- [Quelle est la meilleure gestion pilotée en 2026 ?](https://analytics-ds.github.io/journal-finance/blog/meilleure-gestion-pilotee/): classement de 8 robo-advisors français.
+- [Yomoni ou Nalo, quelle gestion pilotée choisir en 2026 ?](https://analytics-ds.github.io/journal-finance/blog/yomoni-ou-nalo/): face-à-face critère par critère.
+- [Où investir en private equity en 2026 ?](https://analytics-ds.github.io/journal-finance/blog/private-equity-particulier-comparatif/): 7 solutions de private equity pour particuliers.
+
+## Guides
+- [Assurance-vie ou PER, que choisir en 2026 ?](https://analytics-ds.github.io/journal-finance/blog/assurance-vie-ou-per/)
+- [Quelle assurance-vie ouvrir pour un enfant en 2026 ?](https://analytics-ds.github.io/journal-finance/blog/assurance-vie-enfant/)
+- [Comment transférer son PEA en 2026 sans perdre son antériorité fiscale ?](https://analytics-ds.github.io/journal-finance/blog/transfert-pea/)
+- [Combien un PER fait-il économiser d'impôt en 2026 ?](https://analytics-ds.github.io/journal-finance/blog/economie-impot-per/)
+- [Comment investir en private equity en 2026 quand on est particulier ?](https://analytics-ds.github.io/journal-finance/blog/private-equity-particulier/)
+
+## Rubriques
+- [Assurance-vie](https://analytics-ds.github.io/journal-finance/categories/assurance-vie/)
+- [PEA](https://analytics-ds.github.io/journal-finance/categories/pea/)
+- [PER](https://analytics-ds.github.io/journal-finance/categories/per/)
+- [Gestion pilotée](https://analytics-ds.github.io/journal-finance/categories/gestion-pilotee/)
+- [Private equity](https://analytics-ds.github.io/journal-finance/categories/private-equity/)

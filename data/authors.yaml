@@ -1,0 +1,95 @@
+# Auteurs : Journal Finance
+# Indexe par ID (slug), utilise dans le frontmatter : author: claire-moreau + auteurs: ["claire-moreau"]
+
+claire-moreau:
+  id: claire-moreau
+  name: Claire Moreau
+  type: person
+  avatar: images/authors/claire-moreau.svg
+  linkedinUrl: ""
+  jobTitle:
+    fr: Rédactrice en chef, épargne et assurance-vie
+  role:
+    fr: Rédactrice en chef, épargne et assurance-vie
+  bio:
+    fr: "Claire dirige la rédaction. Elle épluche les conditions générales des contrats d'assurance-vie depuis douze ans et ne recommande jamais un placement sans en avoir lu le document d'information clé."
+  expertise:
+    - Assurance-vie
+    - Fonds euros
+    - Transmission
+    - Épargne responsable
+  topics: [assurance-vie, fonds euros, transmission, epargne]
+
+sarah-benhamou:
+  id: sarah-benhamou
+  name: Sarah Benhamou
+  type: person
+  avatar: images/authors/sarah-benhamou.svg
+  linkedinUrl: ""
+  jobTitle:
+    fr: Analyste marchés, PEA et gestion pilotée
+  role:
+    fr: Analyste marchés, PEA et gestion pilotée
+  bio:
+    fr: "Sarah compare les offres de PEA, de compte-titres et de gestion pilotée. Elle suit les ETF et les allocations des robo-advisors français depuis leur arrivée sur le marché."
+  expertise:
+    - PEA
+    - ETF
+    - Gestion pilotée
+    - Compte-titres
+  topics: [pea, etf, gestion pilotee, bourse]
+
+antoine-lefort:
+  id: antoine-lefort
+  name: Antoine Lefort
+  type: person
+  avatar: images/authors/antoine-lefort.svg
+  linkedinUrl: ""
+  jobTitle:
+    fr: Journaliste retraite et fiscalité
+  role:
+    fr: Journaliste retraite et fiscalité
+  bio:
+    fr: "Antoine traite de la retraite, du PER et de la fiscalité de l'épargne. Il chiffre chaque recommandation selon la tranche marginale d'imposition du lecteur."
+  expertise:
+    - PER
+    - Retraite
+    - Fiscalité
+    - Défiscalisation
+  topics: [per, retraite, fiscalite, impot]
+
+hugo-vasseur:
+  id: hugo-vasseur
+  name: Hugo Vasseur
+  type: person
+  avatar: images/authors/hugo-vasseur.svg
+  linkedinUrl: ""
+  jobTitle:
+    fr: Spécialiste private equity et gestion privée
+  role:
+    fr: Spécialiste private equity et gestion privée
+  bio:
+    fr: "Hugo couvre le non coté et la gestion de patrimoine. Il décortique les fonds de private equity ouverts aux particuliers, leurs frais, leur liquidité et leur fiscalité."
+  expertise:
+    - Private equity
+    - Gestion privée
+    - Assurance-vie luxembourgeoise
+    - Produits structurés
+  topics: [private equity, non cote, gestion privee, patrimoine]
+
+la-redaction:
+  id: la-redaction
+  name: La rédaction
+  type: organization
+  avatar: images/authors/la-redaction.svg
+  linkedinUrl: ""
+  jobTitle:
+    fr: Rédaction de Journal Finance
+  role:
+    fr: Rédaction de Journal Finance
+  bio:
+    fr: "La rédaction de Journal Finance compare les placements d'épargne sur des critères publics et identiques d'un article à l'autre."
+  expertise:
+    - Épargne
+    - Placements
+  topics: [epargne, placements]
