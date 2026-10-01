@@ -5,7 +5,7 @@ claire-moreau:
   id: claire-moreau
   name: Claire Moreau
   type: person
-  avatar: images/authors/claire-moreau.svg
+  avatar: images/authors/claire-moreau.jpg
   linkedinUrl: ""
   jobTitle:
     fr: Rédactrice en chef, épargne et assurance-vie
@@ -24,7 +24,7 @@ sarah-benhamou:
   id: sarah-benhamou
   name: Sarah Benhamou
   type: person
-  avatar: images/authors/sarah-benhamou.svg
+  avatar: images/authors/sarah-benhamou.jpg
   linkedinUrl: ""
   jobTitle:
     fr: Analyste marchés, PEA et gestion pilotée
@@ -43,7 +43,7 @@ antoine-lefort:
   id: antoine-lefort
   name: Antoine Lefort
   type: person
-  avatar: images/authors/antoine-lefort.svg
+  avatar: images/authors/antoine-lefort.jpg
   linkedinUrl: ""
   jobTitle:
     fr: Journaliste retraite et fiscalité
@@ -62,7 +62,7 @@ hugo-vasseur:
   id: hugo-vasseur
   name: Hugo Vasseur
   type: person
-  avatar: images/authors/hugo-vasseur.svg
+  avatar: images/authors/hugo-vasseur.jpg
   linkedinUrl: ""
   jobTitle:
     fr: Spécialiste private equity et gestion privée
